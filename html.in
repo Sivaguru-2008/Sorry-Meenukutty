@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorry Meenu ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>I’m Sorry ❤️</h1>
+
+        <p class="message">
+            Sorry Meenu, I didn’t mean to hurt you.<br>
+            I just need you to be happy forever.<br>
+            Smile babyyy 😊
+        </p>
+
+        <div class="gallery">
+            <img src="images/pic1.jpg" alt="Memory 1">
+            <img src="images/pic2.jpg" alt="Memory 2">
+            <img src="images/pic3.jpg" alt="Memory 3">
+        </div>
+
+        <button onclick="showMessage()">Forgive Me 🥺</button>
+
+        <p id="hiddenMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
